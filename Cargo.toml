@@ -1,0 +1,7 @@
+[package]
+name = "rlua_luarocks_lrand"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rlua = { version = "0.19", default-features=false, features=["system-lua53"] }
